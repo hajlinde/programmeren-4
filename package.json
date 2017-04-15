@@ -4,7 +4,7 @@
   "description": "Random User Generator REST API in Node.js",
   "main": "./MyRandomUser/myrandomuser.js",
   "scripts": {
-	"start": "node ./MyRandomUser/myrandomuser.js"
+    "start": "node ./MyRandomUser/myrandomuser.js"
   },
   "author": "Hans van der Linden",
   "license": "ISC",
