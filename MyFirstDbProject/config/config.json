@@ -1,0 +1,7 @@
+{
+    "webPort": "8080",
+    "dbHost": "localhost",
+    "dbUser": "dbuser",
+    "dbPassword": "dbuser",
+    "dbDatabase": "world"
+}
