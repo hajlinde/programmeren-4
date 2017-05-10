@@ -4,7 +4,7 @@
 var mysql = require('mysql');
 var config = require('../config/config.json');
 
-// Better use pool, see below
+// Better to use pool, see below
 var connection = mysql.createConnection({
     host : process.env.DB_HOST || config.dbHost,
     user : process.env.DB_USER || config.dbUser,
@@ -15,7 +15,6 @@ var connection = mysql.createConnection({
 connection.connect(function(error) {
     if (error) {
         console.log(error);
-        return;
     } else {
         console.log("Connected to " + config.dbHost + ":" + config.dbDatabase);
     }
